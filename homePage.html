@@ -75,6 +75,28 @@
   }
 }
 
+.flex-container {
+  display:flex;
+  background-color:grey;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background: white;
+  margin:25px;
+  padding:1px;
+  font-size: 10px;
+}
+
+a{
+  color: orange;
+}
+
+h5{
+  text-align:center;
+}
+
+
 .footer{
     position:fixed;
     left:0;
@@ -85,16 +107,21 @@
     color: white;  
 }
 
+
+
+
+
     </style>
   </head>
 
 <body>
 
   <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
+    <a href="homePage.html" class="active">Home</a>
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
+    <a href="userLogin.html">Login</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -103,7 +130,70 @@
 
   <div class="title">
     Home Page
+    <br><br>
 </div>
+
+<div class="flex-container">
+<div><img src="movieCovers/fightClub.jpg" alt="image not found"
+  width="150" height="225"></div>
+<h5>Fight Club <br> <br>
+  Showtimes <br> <br>
+  Tuesday : 7pm 8pm 9pm <br>
+  Thursday: 7pm 8pm 9pm <br>
+  Friday  : 7pm 8pm 9pm <br>
+  Saturday: 7pm 8pm 9pm <br>
+  <a href="https://www.youtube.com/watch?v=qtRKdVHc-cE" target="_blank">>Movie Trailer</a>
+</h5>
+<div><img src="movieCovers/TheGodfather.jpg" alt="image not found"
+  width="150" height="225"></div>
+<h5>The Godfather <br> <br>
+  Showtimes <br> <br>
+  Tuesday : 7pm 8pm 9pm <br>
+  Thursday: 7pm 8pm 9pm <br>
+  Friday  : 7pm 8pm 9pm <br>
+  Saturday: 7pm 8pm 9pm <br>
+  <a href="https://www.youtube.com/watch?v=UaVTIH8mujA" target="_blank">>Movie Trailer</a>
+</h5>
+<div><img src="movieCovers/TheDarkKnight.jpg" alt="image not found"
+  width="150" height="225"></div>
+<h5>The Dark Knight<br> <br>
+  Showtimes <br> <br>
+  Tuesday : 7pm 8pm 9pm <br>
+  Thursday: 7pm 8pm 9pm <br>
+  Friday  : 7pm 8pm 9pm <br>
+  Saturday: 7pm 8pm 9pm <br>
+  <a href="https://www.youtube.com/watch?v=EXeTwQWrcwY" target="_blank">>Movie Trailer</a>
+</div>
+
+<div class="flex-container">
+  <div><img src="movieCovers/12AngryMen.jpg" alt="image not found"
+    width="150" height="225"></div>
+  <h5>12 Angry Men<br>
+    Movie Showtimes <br>
+    Movie Trailer</h5>
+  <div><img src="movieCovers/ForrestGump.jpg" alt="image not found"
+    width="150" height="225"></div>
+  <h5>Forrest Gump<br>
+    Movie Showtimes <br>
+    Movie Trailer</h5>
+  <div><img src="movieCovers/pulpFiction.jpg" alt="image not found"
+    width="150" height="225"></div>
+  <h5>Pulp Fiction<br>
+    Movie Showtimes <br>
+    Movie Trailer</h5>
+
+</div>
+
+<div class="flex-container">
+  <div>1</div>
+  <h5>Film 1</h5>
+  <div>2</div>
+  <h5>Film 2</h5>
+  <div>3</div>
+  <h5>Film 3</h5>
+
+</div>
+
 
 
 
